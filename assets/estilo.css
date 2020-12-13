@@ -1,0 +1,103 @@
+/*limpar formatacao padrao*/
+
+/*(*)asterisco seleciona tudo*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #e6e6e6;
+}
+
+/*Layout*/
+
+#area-cabecalho{
+    background-color: #c8a2c8;
+    padding: 15px;
+    text-align: center;
+}
+
+/*mesma formatação para ids diferentes*/
+#area-logo, #area-menu{
+    padding: 10px;
+
+}
+#area-principal{
+    width: 920px;/*largura padrao para dispositivos modernos*/
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagens{
+    width: 920px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+#rodape{
+    clear: both;
+    background:#ccc;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+/*Formatacao menu*/
+a{
+/*para todos os links*/
+text-decoration: none;
+
+}
+/*estados do link a:*/
+a:link, a:visited{
+    color: #f7b600;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+
+}
+#area-cabecalho a:hover{
+    color: #f7b600;
+    background-color: white;
+    text-decoration: none;
+}
+
+/*Formatações gerais*/
+h1{
+    color:#4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    color:#565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solida #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
